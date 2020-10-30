@@ -18,6 +18,9 @@ export default class Index extends Component {
     return (
       <View className='index'>
         <Text>Hello world!</Text>
+        <my-haha onIncrease={() => {
+          console.log('click haha')
+        }} />
       </View>
     )
   }
